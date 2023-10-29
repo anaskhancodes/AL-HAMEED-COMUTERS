@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.nav-section{
+    padding: 1rem;
+    /* background-color: aqua; */
+    border-bottom: 0.1rem solid black;
+}
+
+ul i{
+    margin-left: -35px;
+}
+
+.category{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+/* New CSS for the dropdown */
+.dropdown:hover .category-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.category-list {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    top: 35px;
+}

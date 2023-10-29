@@ -1,0 +1,22 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+footer{
+    display: flex;
+    background-color: aquamarine;
+    gap: 3rem;
+}
+
+footer section{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 9.6rem;
+}
+
+footer section a{
+    font-size: 0.9rem;
+}
