@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-produts-box{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* .main-produts-box .card{
+
+} */
