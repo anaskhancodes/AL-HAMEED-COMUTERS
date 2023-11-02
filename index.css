@@ -3,11 +3,73 @@
     padding: 0%;
 }
 
-.main-produts-box{
-    display: flex;
-    margin-top: 20px;
+.product img{
+    height: 230px;
+    margin: 1rem;
+    transition: all 0.3s;
 }
 
-/* .main-produts-box .card{
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
 
+h4{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
+
+.product{
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+    color: black;
+    text-align: center;
+    width: 277px;
+    height: 390px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: 2.8rem;
+    margin-bottom: 2rem;
+    margin-top: 1.6rem;
+    /* border: 1px solid black; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform 0.4s; /* Add a transition for the transform property */
+}
+
+.product a:link, .product a:visited{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 8px;
+    margin-left: 90px;
+}
+
+.product a{
+    
+    transition: transform 0.2s;
+}
+
+/* .product-info{
+    border-top: 1px solid black;
 } */
+
+.price{
+    margin-top: 35px;
+    font-weight: 700;
+}
+
+.product:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* transition: all 0.3s; */
+}
+
