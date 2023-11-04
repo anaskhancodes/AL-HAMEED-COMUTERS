@@ -9,16 +9,29 @@ ul {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
+    color: white;
+    font-weight: 700;
 }
 
 li a {
     text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
 
 .nav-section{
     padding: 1rem;
-    /* background-color: aqua; */
-    border-bottom: 0.1rem solid black;
+    background-color: rgb(215, 171, 255);
+    background-color: rgb(179, 0, 0);
+    box-shadow: 0px 10px 20px 0px rgb(128, 0, 0);
+    /* margin-top: 240px;    */
+    /* width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3; */
+    /* position: sticky; */
+    /* width: 1350px; */
 }
 
 ul i{

@@ -8,15 +8,19 @@
 footer{
     display: flex;
     background-color: aquamarine;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 footer section{
-    margin-left: 4rem;
+    margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 9.6rem;
 }
 
 footer section a{
     font-size: 0.9rem;
+}
+
+footer section h4{
+    margin-left: -30px;
 }
