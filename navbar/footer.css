@@ -7,8 +7,11 @@
 
 footer{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    color: white;
     gap: 4rem;
+    box-shadow: 0px -5px 20px 0px rgb(0, 0, 0);
+    height: 400px;
 }
 
 footer section{
@@ -19,8 +22,78 @@ footer section{
 
 footer section a{
     font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    /* transition: transform 0.3s; */
+}
+
+footer section a:hover{
+    /* transform: scale(1.1); */
+    color: yellow;
+    
 }
 
 footer section h4{
     margin-left: -30px;
 }
+
+footer section .user-details{
+    display: block;
+    margin-left: -60px;
+    margin-top: 45px;
+}
+
+footer section .user-details li{
+    margin-top: 32px;
+}
+
+footer section .corporate{
+    display: block;
+    margin-left: -60px;
+    margin-top: 45px;
+}
+
+footer section .corporate li{
+    margin-top: 15px;
+}
+
+.copy-right-footer{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+/* footer .footer-section{
+
+} */
+
+footer .summery{
+    /* background-color: aqua; */
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    /* border-right: 1px solid white; */
+}
+
+.icons {
+    margin-left: 30px;
+    /* Set the initial text color */
+    color: initial-color; /* Replace 'initial-color' with the desired initial color */
+    padding: 5px;
+    transition: color 0.5s; /* Transition the text color in 0.2 seconds */
+}
+
+.icons:hover {
+    cursor: pointer;
+    background-color: white; /* You can set the background color on hover if needed */
+    color: black; /* Change the text color to black on hover */
+    border-radius: 5px;
+}
+

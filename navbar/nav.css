@@ -21,9 +21,9 @@ li a {
 
 .nav-section{
     padding: 1rem;
-    background-color: rgb(215, 171, 255);
-    background-color: rgb(179, 0, 0);
-    box-shadow: 0px 10px 20px 0px rgb(128, 0, 0);
+    background-color: rgba(0, 0, 0, 0.877);
+    box-shadow: 0px 10px 20px 0px rgb(0, 0, 0);
+    /* background-color: rgb(215, 171, 255); */
     /* margin-top: 240px;    */
     /* width: 100%;
     position: fixed;

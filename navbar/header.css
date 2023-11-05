@@ -6,13 +6,14 @@
 
 
 header {
-    background-color: rgb(133, 0, 0);
+    background-color: rgba(0, 0, 0, 0.925);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 3rem;
     width: 100%;
+    /* border-bottom: 1px solid white; */
     /* position: fixed;
     top: 0;
     left: 0;
@@ -36,6 +37,12 @@ header .user-img h4 {
     font-size: medium;
     margin-right: 2rem;
     margin-top: 10px;
+    transition: transform 0.4s;
+}
+
+header .user-img h4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 header .user-img i {
@@ -50,7 +57,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(143, 0, 0);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     /* position: fixed;
     top: 0;
@@ -62,7 +69,7 @@ nav {
 #logo {
     display: flex;
     height: 6rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-left: 90px;
     margin-bottom: 1rem;
     color: white;
@@ -131,8 +138,10 @@ nav h4 {
 
 nav h5 {
     position: relative;
-    background-color: rgb(255, 106, 106);
+    /* background-color: rgb(255, 106, 106); */
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
     padding: 0.5rem;
     width: 2rem;
     height: 2rem;
@@ -149,4 +158,31 @@ nav h5 {
     background-color: white;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
+
+.welcome{
+    margin-top: 10px; 
+    transition: transform 0.4s; /* Add a transition for the transform property */
+}
+
+.brand-name{
+    text-decoration: none;
+    transition: transform 0.4s; /* Add a transition for the transform property */
+    color: white;
+}
+
+.brand-name:hover{
+    color: white;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.welcome:hover{
+    cursor: default;
+    /* transform: scale(1.1); */
+    transform: rotate(5deg);
+}
+
+
+
