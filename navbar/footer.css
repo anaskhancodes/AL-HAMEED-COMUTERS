@@ -87,7 +87,7 @@ footer .summery{
     /* Set the initial text color */
     color: initial-color; /* Replace 'initial-color' with the desired initial color */
     padding: 5px;
-    transition: color 0.5s; /* Transition the text color in 0.2 seconds */
+    transition: background-color 0.5s, color 0.5s;  /* Transition the text color in 0.2 seconds */
 }
 
 .icons:hover {

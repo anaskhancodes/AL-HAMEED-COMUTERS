@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+form {
+    /* background-color: rgb(0, 0, 0); */
+    display: inline-block;
+    padding: 35px;
+    margin-left: 160px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form input{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+form label{
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+form .select {
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: 30rem;
+    border: 1px solid black;
+    /* height: 5rem; */
+    /* width: 500px; */
+}
+
+form textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.contact-details{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -200px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+
+.contact-details h6{
+    margin-top: 40px;
+}
+
+.contact-details h6 span{
+    font-weight: 800;
+}
+
+.main-contaner{
+    display: flex;
+    align-items: first baseline;
+}
+
+
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    /* Standard syntax */
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

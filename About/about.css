@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.about-heading{
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+p{
+    padding-left: 50px;
+    padding-left: 50px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.p2{
+    padding-left: 50px;
+    padding-left: 50px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+    /* padding-top: 20px; */
+    margin-top: -50px;
+}
