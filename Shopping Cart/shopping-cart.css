@@ -1,0 +1,105 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    /* background-color: aqua; */
+}
+
+.shopping-cart .shopping-items .info{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.shopping-cart .style-cart{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+    /* background-color: chartreuse; */
+}
+
+.shopping-cart .shopping-items{
+    width: 830px;
+    padding: 10px;
+    border-right: 1px solid rgb(190, 190, 190);
+    /* height: 325px; */
+    /* background-color: blue; */
+}
+
+.shopping-cart .checkout{
+    padding: 15px;
+    width: 300px;
+    /* height: 200px; */
+    /* background-color: brown; */
+}
+
+.number{
+    margin-left: -50px;
+}
+
+.shopping-cart .checkout .checkout-btn{
+    width: 260px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.shopping-cart .shopping-items .Product-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.shopping-cart .shopping-items .Product-cart img{
+    width: 100px;
+    margin-left: 5px;
+}
+
+.shopping-cart .shopping-items .Product-cart .price{
+    margin-left: 5px;
+}
+
+.shopping-cart .shopping-items .Product-cart .quantity{
+    background-color: rgb(216, 216, 216);
+    padding: 10px 20px 10px 20px;
+}
+
+.shopping-cart .checkout h6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-cart .checkout h6 .total-price{
+    color: red;
+    font-size: xx-large;
+}
+
+.shopping-cart .shopping-items a{
+    padding: 15px;
+    background-color: burlywood;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.shopping-cart .checkout .checkout-btn:hover {
+    transform: scale(1.1); /* Scale on hover */
+    cursor: pointer;
+}

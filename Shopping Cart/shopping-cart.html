@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../navbar/header.css">
     <link rel="stylesheet" href="../navbar/footer.css">
     <link rel="stylesheet" href="../navbar/nav.css">
-    <link rel="stylesheet" href="./auth.css">
+    <link rel="stylesheet" href="./shopping-cart.css">
     <title>AL-HAMEED-COMPUTERS</title>
 
     <!-- bootstrap cdn -->
@@ -30,7 +30,7 @@
         <a class="brand-name" href="../index.html">
             <h3>AL-HAMEED-COMPUTERS</h3>
         </a>
-        <h6 class="welcome">Welcome</h6>
+        <h6 class="welcome">Shooping Cart</h6>
         <div class="user-img">
             <h4>Log Out</h4>
             <a href="../user-account/user-accont.html"><img class="user-log" src="../images/person-fill.svg" alt=""
@@ -74,7 +74,7 @@
         <ul>
             <li><a href="../index.html">HOME</a></li>
             <li><a href="../About/about.html">ABOUT US</a></li>
-            <ul>CATEGORY ^</i>
+            <ul>CATEGORY ^
                 <li class="category"><a href="#">computer</a></li>
                 <li class="category"><a href="#">computer</a></li>
                 <li class="category"><a href="#">computer</a></li>
@@ -86,54 +86,53 @@
             <li><a href="#">BUYER REVIEWS</a></li>
         </ul>
     </div>
+
     <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 
-    <div class="signup">
-        <form action="">
-            <label for="first-name">Firs Name</label>
-            <br>
-            <input type="text" placeholder="First Name">
+    <div class="shopping-cart">
+        <div class="style-cart">
+            <main class="shopping-items">
+                <p class="info"><span class="number">#</span> <span>Product</span> <span>Price</span>
+                    <span>Quantity</span>
+                    <span>Total</span>
+                </p>
 
-            <br><br>
+                <hr>
+                <div class="Product-cart"><span class="number">1</span> <img src="../images/mouse" alt=""> <span
+                        class="price">PKR 5500</span> <span class="quantity">1</span> <span>PKR 5500</span>
+                </div>
+                <hr>
 
-            <label for="last-name">Last Name</label>
-            <br>
-            <input type="text" placeholder="Last Name">
+                <div class="Product-cart"><span class="number">1</span> <img src="../images/mouse 2" alt=""> <span
+                        class="price">PKR 5500</span> <span class="quantity">1</span> <span>PKR 5500</span>
+                </div>
+                <hr>
 
-            <br><br>
+                <div class="Product-cart"><span class="number">1</span> <img src="../images/monitor.jpg" alt=""> <span
+                        class="price">PKR 1500</span> <span class="quantity">1</span> <span>PKR 1500</span>
+                </div>
+                <hr>
 
-            <label for="email">Email</label>
-            <br>
-            <input type="email" placeholder="xxx@email.com">
+                <br>
+                <a href="../index.html">Continue Shoping</a>
 
-            <br><br>
+            </main>
+            <section class="checkout">
+                <button class="checkout-btn">Proceed to checkout</button>
+                <br><br>
 
-            <label for="password">Password</label>
-            <br>
-            <input type="password" placeholder="Password">
-
-            <br><br>
-
-            <label for="password">Confrom Password</label>
-            <br>
-            <input type="password" placeholder="Confrom Password">
-
-            <br><br>
-
-            <label for="number">Phonr/Mobile</label>
-            <br>
-            <input type="number" placeholder="03xxxxxxxxx">
-
-            <br><br>
-            <p>Already Registered <a href="./login.html">Login</a></p>
-            
-            <br><br>
-            
-            <button>Sign Up</button>
-        </form>
-    </div>     
-
+                <h6>Total Products <span>3</span></h6>
+                <hr>
+                <h6>Total items <span>3</span></h6>
+                <hr>
+                <br>
+                
+                <h6>Total <span class="total-price">RS.12500</span></h6>
+                <hr>
+            </section>
+        </div>
+    </div>
 
 
 
@@ -149,7 +148,6 @@
 
 
 
-    
     <footer>
 
         <div class="summery">
@@ -233,7 +231,7 @@
         <section>
             <h4>ACCOUNT</h4>
             <ul class="user-details">
-                <li><a href="#">Sign Up</a></li>
+                <li><a href="../Auth/signup.html">Sign Up</a></li>
                 <hr>
                 <li><a href="../user-account/user-accont.html">My Account</a></li>
                 <hr>
@@ -270,7 +268,7 @@
     <!--  -->
     <!--  -->
     <footer class="copy-right-footer">
-        <p>copyright © AL HAMEED COMUTERS 2023.All rights reserved.</p>
+        <p>copyright © AL HAMEED COMPUTERS2023.All rights reserved.</p>
         <!--  -->
         <div style="display: flex; gap: 40px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
@@ -298,3 +296,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+</body>
+
+</html>
