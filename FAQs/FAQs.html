@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../navbar/header.css">
     <link rel="stylesheet" href="../navbar/footer.css">
     <link rel="stylesheet" href="../navbar/nav.css">
-    <link rel="stylesheet" href="./auth.css">
+    <link rel="stylesheet" href="./FAQs.css">
     <title>AL-HAMEED-COMPUTERS</title>
 
     <!-- bootstrap cdn -->
@@ -30,7 +30,7 @@
         <a class="brand-name" href="../index.html">
             <h3>AL-HAMEED-COMPUTERS</h3>
         </a>
-        <h6 class="welcome">Welcome</h6>
+        <h6 class="welcome">FAQs</h6>
         <div class="user-img">
             <h4>Log Out</h4>
             <a href="../user-account/user-accont.html"><img class="user-log" src="../images/person-fill.svg" alt=""
@@ -86,70 +86,79 @@
             <li><a href="#">BUYER REVIEWS</a></li>
         </ul>
     </div>
+
     <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-
-    <div class="signup">
-        <form action="">
-            <label for="first-name">Firs Name</label>
-            <br>
-            <input type="text" placeholder="First Name">
-
-            <br><br>
-
-            <label for="last-name">Last Name</label>
-            <br>
-            <input type="text" placeholder="Last Name">
-
-            <br><br>
-
-            <label for="email">Email</label>
-            <br>
-            <input type="email" placeholder="xxx@email.com">
-
-            <br><br>
-
-            <label for="password">Password</label>
-            <br>
-            <input type="password" placeholder="Password">
-
-            <br><br>
-
-            <label for="password">Confrom Password</label>
-            <br>
-            <input type="password" placeholder="Confrom Password">
-
-            <br><br>
-
-            <label for="number">Phonr/Mobile</label>
-            <br>
-            <input type="number" placeholder="03xxxxxxxxx">
-
-            <br><br>
-            <p>Already Registered <a href="./login.html">Login</a></p>
-            
-            <br><br>
-            
-            <button>Sign Up</button>
-        </form>
-    </div>     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+    <h2 class="FAQs">Frequently Asked Questions </h2>
+
+    <div class="main">
+
+
+        <button onclick="hideShow1()">Payments/Delivery/Shipments</button>
+        <div class="p-one">
+            <P>
+                1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quas delectus nesciunt sed at
+                expedita!
+                Excepturi rerum similique voluptatum porro autem odio velit dolorem magni! Expedita minus facere ea
+                earum.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat nemo laudantium, vitae ea laborum
+                inventore iste harum a numquam maiores,
+                enim ea. Tenetur impedit, tempore non voluptatibus necessitatibus eligendi illo quibusdam fuga soluta
+                pariatur facilis, illum commodi!
+                Quis minus modi reprehenderit quasi eum id quidem, harum illum repellendus aliquam molestias nisi ipsum
+                eligendi soluta adipisci officia perspiciatis aliquid velit totam quam laudantium, perferendis rem
+                inventore? Nesciunt, ipsa!
+
+                <br>
+                <br>
+
+                2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quas delectus nesciunt sed at
+                expedita!
+                Excepturi rerum similique voluptatum porro autem odio velit dolorem magni! Expedita minus facere ea
+                earum.
+                Lorem, ipsum dolor sit amet
+
+                <br>
+                <br>
+
+                3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quas delectus nesciunt sed at
+                expedita!
+                Excepturi rerum similique voluptatum porro autem odio velit dolorem magni! Expedita minus facere ea
+                earum.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat nemo laudantium, vitae ea laborum
+            </P>
+        </div>
+
+        <button onclick="hideShow2()">Placing Order</button>
+        <div class="p-two">
+            <P>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quas delectus nesciunt sed at
+                expedita!
+                Excepturi rerum similique voluptatum porro autem odio velit dolorem magni! Expedita minus facere ea
+                earum.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat nemo laudantium, vitae ea laborum
+            </P>
+        </div>
+
+        <button onclick="hideShow3()">Shop Timing</button>
+        <div class="p-three">
+            <P>
+                Shop Hours:
+                Monday – Thursday: 11:00am to 8:00pm <br>
+                Friday: 11:00am to 1:00pm & 3:00pm to 8:00pm <br>
+                Sunday Closed.
+            </P>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
     <footer>
 
         <div class="summery">
@@ -233,7 +242,7 @@
         <section>
             <h4>ACCOUNT</h4>
             <ul class="user-details">
-                <li><a href="./signup.html">Sign Up</a></li>
+                <li><a href="../Auth/signup.html">Sign Up</a></li>
                 <hr>
                 <li><a href="../user-account/user-accont.html">My Account</a></li>
                 <hr>
@@ -252,7 +261,7 @@
 
                 <hr>
 
-                <li><a href="../FAQs/FAQs.html">FAQs</a></li>
+                <li><a href="./FAQs.html">FAQs</a></li>
 
                 <hr>
 
@@ -270,7 +279,7 @@
     <!--  -->
     <!--  -->
     <footer class="copy-right-footer">
-        <p>copyright © AL HAMEED COMUTERS 2023.All rights reserved.</p>
+        <p>copyright © AL HAMEED COMPUTERS2023.All rights reserved.</p>
         <!--  -->
         <div style="display: flex; gap: 40px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
@@ -298,3 +307,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+
+        <script>
+            let pDiv1 = document.querySelector(".p-one");
+            let pDiv2 = document.querySelector(".p-two");
+            let pDiv3 = document.querySelector(".p-three");
+            let display = 0;
+
+            function hideShow1() {
+                if(display === 1){
+                    pDiv1.style.display = "block"
+                    display = 0;
+                }
+                else{
+                    pDiv1.style.display = "none"
+                    display = 1;
+                }
+            }
+
+            function hideShow2() {
+                if(display === 1){
+                    pDiv2.style.display = "block"
+                    display = 0;
+                }
+                else{
+                    pDiv2.style.display = "none"
+                    display = 1;
+                }
+            }
+
+            function hideShow3() {
+                if(display === 1){
+                    pDiv3.style.display = "block"
+                    display = 0;
+                }
+                else{
+                    pDiv3.style.display = "none"
+                    display = 1;
+                }
+            }
+
+            
+        </script>
+
+</body>
+
+</html>
